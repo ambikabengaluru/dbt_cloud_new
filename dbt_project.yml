@@ -41,5 +41,3 @@ models:
     example:
       +materialized: table
 
-vars:
-  start_date: '2024-01-01'
