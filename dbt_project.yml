@@ -41,5 +41,5 @@ models:
     example:
       +materialized: table
 
-
-
+vars:
+  start_date: "{{env_var(DBT_START_DATE)}}"
